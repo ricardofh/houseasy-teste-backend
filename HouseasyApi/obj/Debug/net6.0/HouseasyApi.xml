@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HouseasyApi</name>
+    </assembly>
+    <members>
+        <member name="M:HouseasyApi.Controllers.AddressController.createAddress(HouseasyApi.Data.Dto.AddressDto)">
+            <summary>
+            Adiciona um endereço ao banco de dados
+            </summary>
+            <param name="addressDto">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="201">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="M:HouseasyApi.Controllers.AddressController.GetAddressById(System.Int32)">
+            <summary>
+            Recupera as informações de um endereço
+            </summary>
+            <param name="id">id do endereço que está cadastrado no banco de dados</param>
+            <returns>IActionResult</returns>
+            <response code="200">Caso a busca seja feita com sucesso</response>
+        </member>
+        <member name="M:HouseasyApi.Controllers.AddressController.UpdateAdress(System.Int32,HouseasyApi.Data.Dto.AddressDto)">
+            <summary>
+            Atualiza as informações de um endereço
+            </summary>
+            <param name="id">id do endereço que está cadastrado no banco de dados</param>
+            <param name="addressDto">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="200">Caso a atualização seja feita com sucesso</response>
+        </member>
+        <member name="M:HouseasyApi.Controllers.AddressController.RemoveAddress(System.Int32)">
+            <summary>
+            Remove as informações de um endereço
+            </summary>
+            <param name="id">id do endereço que está cadastrado no banco de dados</param>
+            <returns>IActionResult</returns>
+            <response code="200">Caso a remoção seja feita com sucesso</response>
+        </member>
+        <member name="M:HouseasyApi.Controllers.ContactController.createContact(HouseasyApi.Data.Dto.ContactDto)">
+            <summary>
+            Adiciona um contato ao banco de dados
+            </summary>
+            <param name="contactDto">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="201">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="M:HouseasyApi.Controllers.ContactController.GetContactById(System.Int32)">
+            <summary>
+            Recupera as informações de um contato
+            </summary>
+            <param name="id">id do endereço que está cadastrado no banco de dados</param>
+            <returns>IActionResult</returns>
+            <response code="200">Caso a busca seja feita com sucesso</response>
+        </member>
+        <member name="M:HouseasyApi.Controllers.ContactController.UpdateContact(System.Int32,HouseasyApi.Data.Dto.ContactDto)">
+            <summary>
+            Atualiza as informações de um contato
+            </summary>
+            <param name="id">id do contato que está cadastrado no banco de dados</param>
+            <param name="contactDto">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="200">Caso a atualização seja feita com sucesso</response>
+        </member>
+        <member name="M:HouseasyApi.Controllers.ContactController.RemoveContact(System.Int32)">
+            <summary>
+            Remove as informações de um contato
+            </summary>
+            <param name="id">id do contato que está cadastrado no banco de dados</param>
+            <returns>IActionResult</returns>
+            <response code="200">Caso a remoção seja feita com sucesso</response>
+        </member>
+        <member name="M:HouseasyApi.Controllers.OcupationController.createOcupation(HouseasyApi.Data.Dto.OcupationDto)">
+            <summary>
+            Adiciona um ocupação ao banco de dados
+            </summary>
+            <param name="ocupationDto">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="201">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="M:HouseasyApi.Controllers.OcupationController.GetOcupationById(System.Int32)">
+            <summary>
+            Recupera as informações de um ocupação
+            </summary>
+            <param name="id">id do ocupação que está cadastrado no banco de dados</param>
+            <returns>IActionResult</returns>
+            <response code="200">Caso a busca seja feita com sucesso</response>
+        </member>
+        <member name="M:HouseasyApi.Controllers.OcupationController.UpdateOcupation(System.Int32,HouseasyApi.Data.Dto.OcupationDto)">
+            <summary>
+            Atualiza as informações de um ocupação
+            </summary>
+            <param name="id">id do ocupação que está cadastrado no banco de dados</param>
+            <param name="ocupationDto">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="200">Caso a atualização seja feita com sucesso</response>
+        </member>
+        <member name="M:HouseasyApi.Controllers.OcupationController.RemoveOcupation(System.Int32)">
+            <summary>
+            Remove as informações de um ocupação
+            </summary>
+            <param name="id">id do ocupação que está cadastrado no banco de dados</param>
+            <returns>IActionResult</returns>
+            <response code="200">Caso a remoção seja feita com sucesso</response>
+        </member>
+        <member name="M:HouseasyApi.Controllers.UserController.createUser(HouseasyApi.Data.Dto.UserDto)">
+            <summary>
+            Adiciona um usuário ao banco de dados
+            </summary>
+            <param name="userDto">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="201">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="M:HouseasyApi.Controllers.UserController.GetUserById(System.Int32)">
+            <summary>
+            Recupera as informações de um usuário
+            </summary>
+            <param name="id">id do usuário que está cadastrado no banco de dados</param>
+            <returns>IActionResult</returns>
+            <response code="200">Caso a busca seja feita com sucesso</response>
+        </member>
+        <member name="M:HouseasyApi.Controllers.UserController.UpdateUser(System.Int32,HouseasyApi.Data.Dto.UserDto)">
+            <summary>
+            Atualiza as informações de um usuário
+            </summary>
+            <param name="id">id do usuário que está cadastrado no banco de dados</param>
+            <param name="userDto">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="200">Caso a atualização seja feita com sucesso</response>
+        </member>
+        <member name="M:HouseasyApi.Controllers.UserController.RemoveUser(System.Int32)">
+            <summary>
+            Remove as informações de um usuário
+            </summary>
+            <param name="id">id do usuário que está cadastrado no banco de dados</param>
+            <returns>IActionResult</returns>
+            <response code="200">Caso a remoção seja feita com sucesso</response>
+        </member>
+        <member name="T:HouseasyApi.Migrations.CreateTableUser">
+            <inheritdoc />
+        </member>
+        <member name="M:HouseasyApi.Migrations.CreateTableUser.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:HouseasyApi.Migrations.CreateTableUser.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:HouseasyApi.Migrations.CreateTableUser.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:HouseasyApi.Migrations.CreateTableAddress">
+            <inheritdoc />
+        </member>
+        <member name="M:HouseasyApi.Migrations.CreateTableAddress.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:HouseasyApi.Migrations.CreateTableAddress.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:HouseasyApi.Migrations.CreateTableAddress.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:HouseasyApi.Migrations.CreateTableContact">
+            <inheritdoc />
+        </member>
+        <member name="M:HouseasyApi.Migrations.CreateTableContact.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:HouseasyApi.Migrations.CreateTableContact.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:HouseasyApi.Migrations.CreateTableContact.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:HouseasyApi.Migrations.CreateTableOcupation">
+            <inheritdoc />
+        </member>
+        <member name="M:HouseasyApi.Migrations.CreateTableOcupation.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:HouseasyApi.Migrations.CreateTableOcupation.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:HouseasyApi.Migrations.CreateTableOcupation.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:HouseasyApi.Migrations.ChangeColummComplementOnTableAddress">
+            <inheritdoc />
+        </member>
+        <member name="M:HouseasyApi.Migrations.ChangeColummComplementOnTableAddress.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:HouseasyApi.Migrations.ChangeColummComplementOnTableAddress.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:HouseasyApi.Migrations.ChangeColummComplementOnTableAddress.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
